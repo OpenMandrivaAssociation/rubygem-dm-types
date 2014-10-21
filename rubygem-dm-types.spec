@@ -4,12 +4,12 @@
 Summary:	DataMapper plugin providing extra data types
 Name:		rubygem-%{rbname}
 
-Version:	1.2.1
-Release:	2
+Version:	1.2.2
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/datamapper/dm-types
-Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
+Source0:	http://gems.rubyforge.org/gems/dm-types-1.2.2.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
 
@@ -50,14 +50,3 @@ Documents, RDoc & RI documentation for %{name}.
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
-
-
-%changelog
-* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.2.1-2
-+ Revision: 774161
-- mass rebuild of ruby packages against ruby 1.9.1
-
-* Mon Jan 23 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.2.1-1
-+ Revision: 767099
-- imported package rubygem-dm-types
-
