@@ -36,17 +36,17 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/paranoid
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/paranoid
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/paranoid/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support/*.rb
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/paranoid/*.rb
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/support/*.rb
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.rdoc
-%doc %{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
+# %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/LICENSE
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
