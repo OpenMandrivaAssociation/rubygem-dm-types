@@ -3,7 +3,7 @@
 Summary:	DataMapper plugin providing extra data types
 Name:		rubygem-%{rbname}
 Version:	1.2.2
-Release:	1
+Release:	2
 License:	GPLv2+ or Ruby
 Group:		Development/Ruby
 Url:		http://github.com/datamapper/%{rbname}
